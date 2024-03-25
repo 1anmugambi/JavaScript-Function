@@ -2,6 +2,7 @@
 ## Practicing JS
 
 JavaScript Function Examples
+
 This repository contains examples of different types of functions in JavaScript, including regular functions, function expressions, functions with return values, and arrow functions. Each example demonstrates a different aspect of function usage in JavaScript.
 
 ### Table of Contents
