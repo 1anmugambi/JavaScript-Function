@@ -1,0 +1,2 @@
+# JavaScript-Function
+Practicing JS
