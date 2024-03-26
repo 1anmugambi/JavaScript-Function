@@ -16,7 +16,6 @@ This repository contains examples of different types of functions in JavaScript,
 Regular functions in JavaScript are defined using the function keyword. They can take parameters, execute code, and optionally return a value.
 
 ```javascript
-Copy code
 function greet(name) {
     console.log("Hello, " + name + "!");
 }
@@ -28,7 +27,6 @@ greet("Moe"); // Output: Hello, Moe!
 Function expressions are similar to regular functions but are defined as part of an expression. They can be assigned to variables and passed around like any other value.
 
 ```javascript
-Copy code
 const hello = function (name) {
     console.log("Hello, " + name + "!");
 };
@@ -40,7 +38,6 @@ hello("Ian"); // Output: Hello, Ian!
 Functions in JavaScript can return values using the return statement. This allows them to compute a result and pass it back to the caller.
 
 ```javascript
-Copy code
 function multiply(num1, num2) {
     return num1 * num2;
 }
@@ -67,13 +64,11 @@ console.log(result); // Output: 30
 Arrow functions can be further simplified for one-liners. If the function body is a single expression, curly braces and return keyword can be omitted.
 
 ```javascript
-Copy code
 const world = () => console.log('hello world!');
 
 world(); // Output: hello world!
 ```
 ```javascript
-Copy code
 const double = num => num * 2;
 
 const result = double(5);
